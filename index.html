@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <meta name="author" content="Bruna Melo">
+    <meta 
+        name="description"
+        content="Portfólio da Generation Brasil, 
+                desenvolvedora Full Stack especializada em criar experiências 
+                digitais incríveis. Conheça meus projetos e entre em contato."
+    >
+    <meta name="robots" content="index, follow">
+
+    <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg">
+
+    <title>Portfólio - Bruna Melo</title>
+</head>
+<body>
+
+  <header>
+    <div class="menu-content">
+
+      <a href="index.html" id="titutlo">Portifólio</a>
+
+      <nav>
+        <ul class="menu-list">
+          <li><a href="#hero">Iníco</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a hrfe="#projects">Projetos</li>
+          <li><a href="contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+
+  <main>
+
+    <section id="hero" class="section-container hero-container">
+
+    <article class ="hero-content" >
+
+        <span> Olá, eu sou Bruna Melo </span>
+        <h1> Desenvolvedora Full Stack 🤞</h1>
+        <p> Transformo ideias em código e crio experiências digitais incríveis</p>
+      
+      <div class="buttons-contaniner">
+        <a href="#contact" class="botao" >Entre em Contato</a>
+        <a href="about" class="botao-outline">Saiba Mais...</a>
+      </div>
+    
+    </article>
+
+    <figure class="hero-image">
+      <img src="./assets/img/ChatGPT Image 2 de fev. de 2026, 14_10_54.png"
+            alt="Foto do autor."
+            class="float-animation">
+    </figure>
+
+    </section>
+
+    <!--Seção Sobre o autor-->
+    <section id="about" class="section-container about-container">
+
+      <figure class="about-image">
+          <img src="./assets/img/ChatGPT Image 2 de fev. de 2026, 14_03_55.png" alt="Foto do perfil">
+
+      </figure>
+
+      <article class="about-content">
+          <h2> Sobre mim </h2>
+          <p>
+               Sou Bruna Melo Desenvolvedora Full Stack,apaixonada por tecnologia ,atualmente estou em constante evolução como desenvolvedora web. 
+               Venho construindo projetos que unem aprendizado prático, organização de código e boas práticas, utilizando ferramentas modernas do ecossistema web.
+               Acredito que a tecnologia é uma ponte para transformar ideias em soluções reais. 
+               Meu objetivo é crescer profissionalmente, contribuir com projetos desafiadores e continuar aprendendo todos os dias.
+          </p>
+
+          <div class="about-buttons-data">
+
+
+            <div class="buttons-contaniner">
+                <a href="#" target="_blank" class="botao">GitHub</a>
+                <a href="#"target="_blank"  class="botao-outline">Currículo</a>
+            </div>
+
+
+                  <div class="data-container">
+                     <div class="data-item">
+                     <span class="data-number">100</span>
+                     <span class="datalabel">Seguidores</span>
+                  </div>
+            
+
+                   <div class="data-item">
+                      <span class="data-number">10</span>
+                      <span class="datalabel">Repositórios</span>
+                   </div>
+
+
+            </div>
+          </div>
+
+      </article>
+
+    </section>
+
+    <!--SeçãProjetos do Autor-->
+    <section id="projects" class="section-container projects-container">
+        <h2>Meus Projetos</h2>
+
+    <!--Swiper Container-->
+        <div class="swiper projects-swiper">
+             <div class="swiper-wrapper">
+                 <div class="swiper-slide">
+
+                      <article classe="project-card">
+                          <figure class="project-image">
+                               <img src="./assets/icons/githublack.svg"
+                               alt="Ícone Github">
+                          </figure>
+
+
+                          <div class="project-content">
+
+                            <h3>Projeto Github</h3>
+                            <p>Projeto Desenvolvido no GitHub</p>
+
+
+                              <div class="project-tags">
+                                <span class="tag">GitHub</span>
+                              </div>
+
+
+                              <div class="project-buttons">
+                                 <a href="#" target="_blank" class="botao botao-sm">
+                                  GitHub
+                                 </a>
+                                 <a href="#" target="_blanck" class="botao-outline botao-sm">
+                                  Deploy
+                                 </a>
+
+                              </div>
+                          </div>
+
+                      </article>
+                
+                 </div>
+             </div>
+
+             <!--Botões de navegação-->
+
+             <div class="swiper-butoon-next"></div>
+             <div class="swiper-button-prev"></div>
+
+             <!--Paginação-->
+
+             <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+
+    <!--Seção Formulário de Contato e Redes Sociais-->
+    <section id="contact" class="section-container contact-container">
+
+    <!--REDES SOCIAIS-->  
+
+      <article class="contact-info">
+        <h2>Entre em Contato</h2>
+        <p>Sinta-se à vontade para entrar em contato comigo!</p>
+
+
+          <div class="social-container">
+              <a href="#" target="_blank" class="social-icon" aria-label="LinkedIn">
+                  <img src="./assets/icons/linkedin.svg" alt="Link para o LinkedIn">
+              </a>
+
+              <a href="#" target="_blank" class="social-icon" aria-label="GitHub">
+                  <img src="./assets/icons/github.svg" alt="Link para o GitHub">
+              </a>  
+
+          </div>
+
+      </article>
+
+      <!--FORMULÁRIO-->
+      
+      <id="formulario">
+
+        <label for="nome">Nome</label>
+        <input id="nome" name="nome" type="text" placeholder="Digite o seu nome completo">
+        <span id="erro-nome"></span>
+
+
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="text" placeholder="Digite o seu e-mail">
+        <span id="erro-email"></span>
+
+
+        <label for="assunto">Assunto</label>
+        <input id="assunto" name="assunto" type="text" placeholder="Digite o assunto da mensagem">
+        <span id="erro-assunto"></span>
+
+
+        <label for="mesagem">Mensagem</label>
+        <input id="mesagem" name="mesagem" type="text" placeholder="Deixe sua mensagem aqui..."></textarea>
+        <span id="erro-mesagem"></span>
+
+        <button class="botao" type="submit">Enviar Mensagem</button>
+
+      </form>
+
+    </section>
+
+    </section>
+
+  </main>
+
+  <footer>
+
+    Desenvolvido por Bruna Melo - 2026
+
+  </footer>
+    
+</body>
+</html>
