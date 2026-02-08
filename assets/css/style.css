@@ -857,7 +857,7 @@ header a:hover {
     }
 
     /* Hero */
-.hero-container {
+   .hero-container {
     gap: var(--spacing-sm);
 }
 
