@@ -101,15 +101,16 @@ O site será aberto no navegador e todas as alterações poderão ser visualizad
 
 ------
 
-## Deploy
+## 🌐 Deploy
 
-Este site está disponível publicamente através do **GitHub Pages**. Você pode acessar a versão online pelo link abaixo:
+Este site está disponível publicamente através do **GitHub Pages**.
 
-🔗 https://seu-usuario.github.io/seu-repositorio
+👉 **[Acessar Portfólio Online](https://bkmelo.github.io/Portf-lio/)**
+
 
 ------
 
-## Contribuições
+## Contribuições✌
 
 Contribuições são bem-vindas. Caso tenha sugestões de melhorias, correções ou novas funcionalidades, sinta-se à vontade para abrir uma **issue** ou enviar um **pull request**.
 
