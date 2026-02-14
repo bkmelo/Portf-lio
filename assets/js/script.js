@@ -26,17 +26,9 @@ async function getAboutGithub() {
         <h2>Sobre mim</h2>
 
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Dicta assumenda, quasi sit reiciendis nihil id enim facilis
-          iste exercitationem nostrum minus ipsa neque officia dolorum
-          ea optio est quis magni.
-        </p>
-
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Dicta assumenda, quasi sit reiciendis nihil id enim facilis
-          iste exercitationem nostrum minus ipsa neque officia dolorum
-          ea optio est quis magni.
+         Sou uma desenvolvedora Full Stack em formação, apaixonada por tecnologia e por transformar ideias em soluções digitais funcionais. Tenho experiência com desenvolvimento de aplicações web utilizando tecnologias como JavaScript, TypeScript, React e Node.js, além de frameworks como NestJS, com foco em boas práticas de código, organização e segurança (JWT e autenticação).
+          Atualmente, estou aprofundando meus conhecimentos tanto no front-end quanto no back-end, buscando evoluir constantemente minhas habilidades técnicas e de lógica de programação. Tenho grande interesse em aprender novas ferramentas, enfrentar desafios e contribuir para projetos que gerem impacto real.
+          Meu objetivo é crescer profissionalmente na área de desenvolvimento de software, construindo aplicações eficientes, escaláveis e com boa experiência para o usuário.
         </p>
 
         <div class="about-buttons-data">
